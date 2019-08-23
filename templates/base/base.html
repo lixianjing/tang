@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{base_title}}</title>
+
+    {% load bootstrap4 %}
+
+    {# Load CSS and JavaScript #}
+    {% bootstrap_css %}
+    {% bootstrap_javascript jquery='full' %}
+
+    {# Display django.contrib.messages as Bootstrap alerts #}
+    {% bootstrap_messages %}
+</head>
+<body>
+{% block head %}
+
+{% endblock %}
+
+
+{% block mainbody %}
+
+{% endblock %}
+
+{% block footer %}
+
+{% endblock %}
+</body>
+
+</html>
